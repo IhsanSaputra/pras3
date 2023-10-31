@@ -1,5 +1,5 @@
 
-public class CuboidVolumeCalculator {
+public class balok {
 
     /**
      * Metode ini menghitung volume dari suatu balok.
@@ -23,7 +23,7 @@ public class CuboidVolumeCalculator {
         double length = 5.0;
         double width = 3.0;
         double height = 2.0;
-        CuboidVolumeCalculator calculator = new CuboidVolumeCalculator();
+        balok calculator = new balok();
         System.out.println("Volume dari balok dengan panjang " + length + ", lebar " + width + ", dan tinggi " + height + " adalah " + calculator.calculateVolume(length, width, height));
     }
 }
